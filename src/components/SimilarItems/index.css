@@ -1,0 +1,24 @@
+.each-similar-item-container {
+  background-color: #121212;
+  padding: 15px;
+  border-radius: 12px;
+  width: 28vw;
+  margin-bottom: 40px;
+}
+.similar-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.similar-info {
+  font-size: 12px;
+  font-weight: 200px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .each-similar-item-container {
+    width: 46vw;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}

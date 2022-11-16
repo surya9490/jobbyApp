@@ -1,0 +1,61 @@
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-repeat: no-repeat;
+}
+.details-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  flex-shrink: 0;
+}
+.filter-container {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.display-container {
+  margin-left: 20px;
+}
+.display-items-container {
+  list-style-type: none;
+  flex-shrink: 1;
+  margin-right: 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+.search-input {
+  border: 1px solid #121212;
+  padding: 4px;
+  width: 300px;
+  background-color: black;
+}
+.search-icon {
+  width: 40px;
+  background-color: #121212;
+  height: 30px;
+  padding: 7px;
+}
+@media screen and (max-width: 576px) {
+  .filter-container {
+    width: 95%;
+    padding-bottom: 40px;
+  }
+  .details-container {
+    flex-direction: column;
+  }
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,22 @@
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+.failure-image {
+  width: 40vw;
+}
+.failure-header {
+  margin: 20px;
+}
+.failure-button {
+  margin: 20px;
+  background-color: #6366f1;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+}

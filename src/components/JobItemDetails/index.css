@@ -1,0 +1,88 @@
+.each-item-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  flex-direction: column;
+}
+.each-item-card {
+  background-color: #121212;
+  width: 90vw;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.all-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25vw;
+  margin-bottom: 20px;
+}
+.skills-image {
+  height: 40px;
+  margin-right: 10px;
+}
+.skills-name {
+  font-size: 12px;
+  font-weight: 300;
+}
+.life-company {
+  margin-bottom: 20px;
+}
+.life-description {
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 300;
+  margin-right: 20px;
+}
+.description-website-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.life-image {
+  height: 200px;
+}
+@media screen and (max-width: 576px) {
+  .description-website-container {
+    flex-direction: column;
+  }
+  .life-description {
+    line-height: 1;
+    order: 1;
+  }
+  .life-image {
+    order: 0;
+    margin-bottom: 10px;
+  }
+}
+.similar-items-container {
+  list-style-type: none;
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.similar-item {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .similar-items-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
